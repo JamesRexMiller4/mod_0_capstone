@@ -1,0 +1,497 @@
+/* Color Palette
+lightgreen- #2EEACB
+minticecream- #4CB963
+darkmint- #009E83
+teal- #268B8E
+
+blue-#223C7A
+gray- #4C5775
+*/
+
+/* Elements  */
+
+html {
+
+  background: #4C5775;
+  box-sizing: border-box;
+
+}
+
+body  {
+
+  max-width: 100%;
+  background-color: #4c5775;
+
+}
+
+/* * {
+
+  margin: 0;
+  padding: 0;
+
+} */
+
+*, * :before, * :after {
+
+  box-sizing: inherit;
+
+}
+
+section {
+
+  background-color: #223C7A;
+
+}
+
+h2 {
+
+  color: #223C7A;
+  font-size: 50px;
+}
+
+a {
+
+  color: #009E83;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 auto;
+
+}
+
+a:hover {
+
+  color: #223C7A;
+
+}
+
+div {
+
+  right: 0px;
+  left: 0px;
+  float: none;
+  overflow: auto;
+
+}
+
+p {
+
+  font-size: 32px;
+  color: #223C7A;
+  font-weight: bolder;
+  text-align: left;
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+
+/* Welcome */
+
+h1 {
+
+  font-family: 'Permanent Marker', cursive;
+  font-size: 120px;
+  color: #ccd3da;
+  text-align: left;
+
+
+}
+
+.welcomemsg h1 {
+
+  font-size: 50px;
+  float: left;
+
+}
+
+.start{
+
+  max-width: 100%;
+  width: 100%;
+  height: 800px;
+
+}
+
+.welcome {
+
+  height: 800px;
+  margin-bottom: 20px;
+  background-image: url(images/skiing.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+
+}
+
+
+/* About Me */
+
+
+div.aboutme {
+
+  max-width: 100%;
+  width: 100%;
+  background-color: #268B8E;
+  border-left: 10px solid;
+  color: #223C7A
+
+}
+
+.aboutme h2 {
+
+  max-width: 100%;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 40px;
+  font-size: 65px;
+
+}
+
+.aboutme {
+
+  max-width: 100%;
+  padding-left: 20px;
+
+}
+
+.aboutme .bold{
+
+  color: black;
+  font-weight: bolder;
+
+}
+
+.familypic {
+
+  width:400px;
+  max-width: 400px;
+  height: 400px;
+  border: 20px solid;
+  border-color: rgba(39, 109, 142);
+  border-radius: 50%;
+  float: left;
+  margin: 50px;
+
+}
+
+.aboutme p {
+
+  margin-top: 13px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+
+}
+
+/* Web Development */
+
+.seconddiv {
+
+  background-image: url(images/arizona.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+
+}
+
+div.webdevelopment {
+
+  display: inline-block;
+  text-align: left;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  background: rgba(39, 139, 142, 0.26);
+  left: 0px;
+  right: 0px;
+  max-width: 100%;
+  width: 100%;
+
+}
+
+.webdevelopment p {
+
+  color: #ecefed;
+  padding: 40px;
+  font-family: monospace;
+
+}
+
+.webdevelopment h2 {
+
+  max-width: 100%;
+  color: #ecefed;
+  text-align: right;
+  padding: 40px 40px 20px 0;
+  font-family: monospace;
+  font-size: 65px;
+
+}
+
+
+/* Hobbies */
+
+div.hobbies{
+
+  padding-left: 40px;
+  margin-right: 40px;
+
+}
+
+.hobbies h2 {
+
+  color: #009E83;
+  padding: 40px 0px 20px 40px;
+  font-size: 65px;
+
+}
+
+.hobbies p {
+
+  color: #009E83;
+  padding-left: 40px;
+  padding-bottom: 40px;
+
+}
+
+span.revenge {
+
+  font-family: 'Lacquer', sans-serif;
+  color: red;
+
+}
+
+/* Favorite Comedies - Forms */
+
+.forms h3 {
+
+  font-family: 'Cinzel', serif;
+  font-weight: 500px;
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  color: #d7f9eeba;
+  font-size: 80px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  background-color: #007eff4d;
+
+}
+
+.forms h4 {
+
+	color: #d7f9eeba;
+  font-size: 3rem;
+  padding-left: 20px;
+  padding-bottom: 40px;
+
+}
+
+.forms p {
+
+  color: #d7f9eeba;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+
+}
+
+.youngf {
+
+  height: 700px;
+  margin-bottom: 80px;
+  background-image: url(images/youngfrakenstein.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+
+}
+
+span.frank {
+
+  text-align: left;
+  padding-left: 200px;
+
+}
+
+.bubba{
+
+  height: 700px;
+  margin-bottom: 80px;
+  background-image: url(images/bubbahotep.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+
+}
+
+
+.monty {
+
+  height: 700px;
+  margin-bottom: 0;
+  background-image: url(images/montypython.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+
+}
+
+.formbar{
+
+  padding-left:10px;
+  display: inline-block;
+  height: 40px;
+  width: 200px;
+  max-height: 100%;
+  border: 2px solid black;
+  border-radius: 4px;
+
+}
+
+
+.input {
+
+  height: 200px;
+  background: #009E83;
+
+}
+
+#submit {
+
+  display: inline-block;
+  width: 200px;
+  height: 42px;
+  font-size: 20px;
+  font-family: inherit;
+  color: black;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 4px 4px 4px 4px;
+
+}
+
+.question {
+
+  width: 100%;
+
+}
+
+.question h3 {
+
+  font-family: 'Cinzel', serif;
+  font-weight: 500px;
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  color: #d7f9eeba;
+  font-size: 60px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+  background-color: #009E83;
+  border: 10px solid;
+  margin-top: 0;
+
+}
+
+.input h4 {
+
+	color: #d7f9eeba;
+  font-size: 3rem;
+  padding-left: 20px;
+  padding-bottom: 40px;
+
+}
+
+
+
+/* Back to Top */
+
+.backtotop{
+
+  width: 100%;
+  height: 115px;
+  text-align: center;
+
+}
+
+div.backtotop{
+  margin-top: 0;
+  border-top: 20px solid;
+  border-bottom: 20px solid;
+  border-color: #007eff4d;
+
+}
+
+.backtotop a {
+
+  padding-top: 10px;
+  font-size: 50px;
+  font-family: 'Lexend Exa', sans-serif;
+  color: #007eff4d;
+
+}
+
+.backtotop a:hover {
+  color: #009E83;
+
+}
+
+
+/* header */
+
+header{
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  height: 42px;
+  background-color: #4c5775;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+
+}
+
+
+/* footer */
+footer {
+
+  background-color: #4C5775;
+  display: inline;
+  max-width: 100%;
+
+}
+
+span.icons {
+
+  text-align: center;
+  margin-left: 70px;
+  padding-bottom: 50px;
+
+}
+
+.contact h2 {
+
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: #009e82;
+  padding-bottom: 20px;
+
+}
+
+.copyright {
+
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+
+}
